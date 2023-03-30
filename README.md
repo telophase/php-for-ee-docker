@@ -23,6 +23,9 @@ sudo docker buildx build ./ --tag php-for-ee-docker:latest
 ### pull from a registry 
 Latest builds are pushed to both [Docker Hub](https://hub.docker.com/) and the [Github Container Registry](https://ghcr.io).
 
+- Docker Hub: [telophase/php-for-ee-docker](https://hub.docker.com/r/telophase/php-for-ee-docker)
+- GCHR: [gchr.io/telophase/php-for-ee-docker](https://github.com/users/telophase/packages/container/package/php-for-ee-docker)
+
 Build tags correspond to which PHP version is shipped. Current tags are:
 - `latest`, `8.2` - Tested with EE7.2+
 
